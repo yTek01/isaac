@@ -1,10 +1,12 @@
 /*!
- * Updated CSS with #0B6A9D and complementary colors
+ * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
  body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #f4f4f4; /* Light text to contrast the blue background */
+  color: #868e96;
 }
 
 @media (min-width: 992px) {
@@ -23,7 +25,7 @@ h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #f4f4f4; /* Light color for headers */
+  color: #343a40;
 }
 
 h1 {
@@ -43,7 +45,7 @@ h2 {
 }
 
 .list-social-icons a {
-  color: #f4f4f4; /* Light color for icons */
+  color: #495057;
 }
 
 .list-social-icons a:hover {
@@ -65,7 +67,6 @@ h2 {
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
-  color: #f4f4f4; /* Light text for navigation links */
 }
 
 #sideNav .navbar-nav .nav-item .nav-link:hover {
@@ -82,7 +83,6 @@ h2 {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
-    background-color: #0B6A9D; /* Blue sidebar background */
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -140,15 +140,15 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #0B6A9D !important; /* Blue background */
+  background-color: #3465A4 !important; /* Softer primary blue */
 }
 
 .text-primary {
-  color: #0B6A9D !important; /* Blue text */
+  color: #3465A4 !important; /* Softer primary blue */
 }
 
 a {
-  color: #f4f4f4; /* Light text for links */
+  color: #3465A4;
 }
 
 a:hover,
