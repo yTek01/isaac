@@ -1,12 +1,10 @@
 /*!
- * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ * Updated CSS with #0B6A9D and complementary colors
  */
  body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #868e96;
+  color: #f4f4f4; /* Light text to contrast the blue background */
 }
 
 @media (min-width: 992px) {
@@ -25,7 +23,7 @@ h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: #f4f4f4; /* Light color for headers */
 }
 
 h1 {
@@ -45,11 +43,11 @@ h2 {
 }
 
 .list-social-icons a {
-  color: #495057;
+  color: #f4f4f4; /* Light color for icons */
 }
 
 .list-social-icons a:hover {
-  color: #4A7ABF; /* Softer hover color */
+  color: #f1c40f; /* Golden hover color */
 }
 
 .list-social-icons a .fa-lg {
@@ -61,12 +59,17 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #4A7ABF;
+  color: #f1c40f; /* Golden hover color */
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
   text-transform: uppercase;
+  color: #f4f4f4; /* Light text for navigation links */
+}
+
+#sideNav .navbar-nav .nav-item .nav-link:hover {
+  color: #f1c40f; /* Golden hover for navigation links */
 }
 
 @media (min-width: 992px) {
@@ -79,6 +82,7 @@ h2 {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
+    background-color: #0B6A9D; /* Blue sidebar background */
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -136,19 +140,19 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #3465A4 !important; /* Softer primary blue */
+  background-color: #0B6A9D !important; /* Blue background */
 }
 
 .text-primary {
-  color: #3465A4 !important; /* Softer primary blue */
+  color: #0B6A9D !important; /* Blue text */
 }
 
 a {
-  color: #3465A4;
+  color: #f4f4f4; /* Light text for links */
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #4A7ABF; /* Softer hover/active color */
+  color: #f1c40f; /* Golden hover color */
 }
