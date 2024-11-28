@@ -49,7 +49,7 @@ h2 {
 }
 
 .list-social-icons a:hover {
-  color: #0056B4; /* Complementary hover color */
+  color: #4A7ABF; /* Softer hover color */
 }
 
 .list-social-icons a .fa-lg {
@@ -61,7 +61,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #0056B4;
+  color: #4A7ABF;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -136,19 +136,19 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #0033A0 !important; /* Georgia State University Blue */
+  background-color: #3465A4 !important; /* Softer primary blue */
 }
 
 .text-primary {
-  color: #0033A0 !important; /* Georgia State University Blue */
+  color: #3465A4 !important; /* Softer primary blue */
 }
 
 a {
-  color: #0033A0;
+  color: #3465A4;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #0056B4; /* Complementary hover color */
+  color: #4A7ABF; /* Softer hover/active color */
 }
